@@ -1,0 +1,17 @@
+{
+	"name" : "projeto/mvc",
+	"description" : "Aprendendo MVC na prática",
+	"authors" : [
+		{
+			"name" : "Roberto Maciel",
+			"email" : "rob.nettom@gmail.com"
+		}
+	],
+	"require" : {},
+	"autoload" : {
+		"psr-4" : {
+			"App\\" : "app/",
+			"Projeto\\" : "src/projeto"
+		}
+	}
+}
